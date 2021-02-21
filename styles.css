@@ -8,7 +8,7 @@ h2 {
 }
 
 .topnav {
-    background-color: #056a84;
+    background-color: #031927;
     overflow: hidden;
   }
   
@@ -19,18 +19,33 @@ h2 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: "Montserrat",sans-serif;
   }
   
   .topnav a:hover {
-    background-color: #0791B5;
+    background-color: #BA1200;
     color: white;
   }
   
   .topnav a.active {
-    background-color: #0791B5;
+    background-color: #508AA8;
     color: white;
   }
 
   body {
-      background-color: #fff9e7;
+      color: #031927;
+      background-image: url('Boston Road Map Gaus.png')
+  }
+
+  .bg {
+    /* The image used */
+    background-image: "Boston Road Map.png"
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
